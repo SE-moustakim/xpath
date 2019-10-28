@@ -13,9 +13,9 @@ Combien de fois la superficie de la France fait celle du Luxenbourg ?
 Quelle est la superficie de l'Europe ?
 
     * sum(//country[encompassed[@continent="europe"]]/@area)
-      Quel est la population de l’Afrique ?
+Quel est la population de l’Afrique ?
 
-      sum(//country[encompassed[@continent="africa"]]/population[last()])
+    *   sum(//country[encompassed[@continent="africa"]]/population[last()])
 
 Combien de pays a-t-on en afrique ?
 
