@@ -7,12 +7,19 @@
 1 Les pays de plus de 6000000 habitants :
 
     *   //country[population>6000000]/name
-       Codes des pays bordant la France
 
-//country[name="France"]/border
-Nombre de provinces en France ?
+2 Codes des pays bordant la France
 
-//country[name="France"]/count(province)
+    *   //country[name="France"]/border
+
+
+3 Nombre de provinces en France ?
+
+    *    //country[name="France"]/count(province)
+
+
+
+
 Caractéristiques de Paris ?
 
 //city[name="Paris"]
